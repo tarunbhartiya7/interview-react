@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="2" errors="0" time="2.957">
+  <testsuite name="Instructions Board" errors="0" failures="2" skipped="0" timestamp="2024-01-25T11:14:42" time="2.141" tests="7">
+    <testcase classname="Instructions Board Initially no instructions should be present in the list" name="Instructions Board Initially no instructions should be present in the list" time="0.066">
+    </testcase>
+    <testcase classname="Instructions Board Add new instruction to the list and clear input field after input" name="Instructions Board Add new instruction to the list and clear input field after input" time="0.03">
+    </testcase>
+    <testcase classname="Instructions Board Add Multiple Instructions and check their existance" name="Instructions Board Add Multiple Instructions and check their existance" time="0.042">
+    </testcase>
+    <testcase classname="Instructions Board Check disabled buttons for first and last tasks" name="Instructions Board Check disabled buttons for first and last tasks" time="0.076">
+    </testcase>
+    <testcase classname="Instructions Board Bring bottommost instruction to top, then disable swap-up button" name="Instructions Board Bring bottommost instruction to top, then disable swap-up button" time="0.039">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Sample Instruction 4&quot;
+Received: &quot;Sample Instruction 3&quot;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:97:30)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Instructions Board Bring topmost instruction to bottom, then disable swap-down button" name="Instructions Board Bring topmost instruction to bottom, then disable swap-down button" time="0.032">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Sample Instruction 1&quot;
+Received: &quot;Sample Instruction 2&quot;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:118:30)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Instructions Board Show error message if no instructions is entered" name="Instructions Board Show error message if no instructions is entered" time="0.015">
+    </testcase>
+  </testsuite>
+</testsuites>
